@@ -1,8 +1,9 @@
+import Body from '../shared/Body'
 const Home = () => {
     return (
-        <>
-        <h1>Home</h1>
-        </>
+        <Body>
+            
+        </Body>
     )
 }
 export default Home;

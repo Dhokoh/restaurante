@@ -6,6 +6,7 @@ import Home from './components/pages/Home';
 import NotFound from './components/pages/NotFound';
 import Contact from './components/pages/Contact';
 import Location from './components/pages/Location';
+import 'bootstrap/dist/css/bootstrap.min.css';
 
 function App() {
   return (
