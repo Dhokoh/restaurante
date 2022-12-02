@@ -14,10 +14,10 @@ const Header = () => {
                         <Nav.Link as='a' href='/'>Inicio</Nav.Link>
                     </Nav.Item>
                     <Nav.Item>
-                        <Nav.Link href="contact">Contacto</Nav.Link>
+                        <Nav.Link href="/contact">Contacto</Nav.Link>
                     </Nav.Item>
                     <Nav.Item>
-                        <Nav.Link href="location">Dirección</Nav.Link>
+                        <Nav.Link href="/location">Dirección</Nav.Link>
                     </Nav.Item>
                 </Nav>
             </div>

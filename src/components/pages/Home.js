@@ -1,9 +1,7 @@
 import Body from '../shared/Body'
 const Home = () => {
     return (
-        <Body>
-            
-        </Body>
+        <h1>Home</h1>
     )
 }
 export default Home;
