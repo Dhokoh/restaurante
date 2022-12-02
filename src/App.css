@@ -1,5 +1,5 @@
 .navMenu{
-    background-color: #8ed8f5;
+    background-color: #04030f;
     height: 90px;
 }
 .navMenu:active{
@@ -21,3 +21,14 @@ a:visited{
 .footerNavLink{
     margin-right: 30px;
 }
+.jumbotron{
+    
+}
+.restaurantBrandHome{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif !important;
+    color: #ff7300b7 !important;
+}
+.homeRow{
+    margin-top: 100px !important;
+}
+
