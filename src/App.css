@@ -34,9 +34,13 @@ a:visited{
 }
 .footerContainer{
     justify-content: left !important;
+    background-color: #e6e6e6;
 }
 .footerNavLink{
     margin-right: 30px;
+}
+.disclaimerCopyr{
+    font-size: 6.5px;
 }
 .jumbotron{
     margin-top: 75px;
@@ -54,5 +58,8 @@ a:visited{
 .homeRow{
     margin-top: 0px !important;
 
+}
+.contactButtonStyling{
+    background-color: #6c4300 !important
 }
 

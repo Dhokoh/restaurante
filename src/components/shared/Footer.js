@@ -9,6 +9,14 @@ const Footer = () => {
         <Nav.Link className='footerNavLink' href="/">Inicio</Nav.Link>
         <Nav.Link className='footerNavLink' href="contact">Contacto</Nav.Link>
         <Nav.Link className='footerNavLink' href="location">Location</Nav.Link>
+        <Container>
+        <Navbar.Toggle />
+        <Navbar.Collapse className="justify-content-end">
+          <Navbar.Text className='disclaimerCopyr'>
+            Restaurante, todos los derechos reservados. 
+          </Navbar.Text>
+        </Navbar.Collapse>
+      </Container>
       </Container>
     </Navbar>
     </>)
