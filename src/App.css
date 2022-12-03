@@ -59,7 +59,32 @@ a:visited{
     margin-top: 0px !important;
 
 }
-.contactButtonStyling{
-    background-color: #6c4300 !important
+.contactContainer{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
 }
-
+.contactTitle{
+    color: #ff7300b7 !important;
+}
+.nameField{
+    width: 400px !important;
+}
+.messageField{
+    width: 500px !important;
+    height: 150px !important;
+}
+.contactButtonStyling{
+    background-color: #8a8300 !important
+}
+.mapHolder{
+    /* margin-top: 50px !important; */
+    padding: 10px !important;
+}
+.listStyle{
+    border: none !important;
+    color: #8a8300 !important;
+}
+.h1LocationTitle{
+    color: #ff7300b7;
+}

@@ -1,30 +1,41 @@
+import Container from "react-bootstrap/Container";
 import Button from "react-bootstrap/Button";
 import Form from "react-bootstrap/Form";
 
 const ContactForm = () => {
     return (
         <>
-            <Form>
-                <Form.Group className="mb-3" controlId="formBasicText">
-                    <Form.Label>Nombre</Form.Label>
-                    <Form.Control type="text" placeholder="¿Cómo te llamas?" />
-                    <Form.Text className="text-muted">
-                        O ¿cómo prefieres ser llamado?
-                    </Form.Text>
-                </Form.Group>
+            <Container className="contactContainer">
+                <Form>
+                    <Form.Group className="mb-3" controlId="formBasicText">
+                        <Form.Label>Nombre</Form.Label>
+                        <Form.Control className="nameField" type="text" placeholder="¿Cómo te llamas?" />
+                        <Form.Text className="text-muted">
+                            O ¿cómo prefieres ser llamado?
+                        </Form.Text>
+                    </Form.Group>
 
-                <Form.Group className="mb-3" controlId="formBasicEmail">
-                    <Form.Label>E-mail</Form.Label>
-                    <Form.Control type="email" placeholder="email" />
-                </Form.Group>
-                <Form.Group className="mb-3" controlId="formBasicCheckbox">
-                    <Form.Label>Mensaje</Form.Label>
-                    <Form.Control as="textarea" rows={3} placeholder="Su mensaje aquí"className="" />
-                </Form.Group>
-                <Button className="contactButtonStyling" variant="primary" type="submit">
-                    Enviar
-                </Button>
-            </Form>
+                    <Form.Group>
+                        <Form.Label>Tel</Form.Label>
+                        <Form.Control className="nameField" type='number' placeholder="Tel o Cel"></Form.Control>
+                    </Form.Group>
+
+                    <Form.Group className="mb-3" controlId="formBasicEmail">
+                        <Form.Label>E-mail</Form.Label>
+                        <Form.Control className="nameField" type="email" placeholder="email" />
+                    </Form.Group>
+                    <Form.Group className="mb-3" controlId="formBasicCheckbox">
+                        <Form.Label>Mensaje</Form.Label>
+                        <Form.Control className='messageField' as="textarea" placeholder="Escribe aquí tu mensaje" />
+                        <Button className="contactButtonStyling" variant="primary" type="submit">
+                        Enviar
+                    </Button>
+                    </Form.Group>
+                </Form>
+                <Container>
+                    <img alt='orderfood' width='600px' src='images/AsianOrderFood.jpeg' />
+                </Container>
+            </Container>
         </>
     )
 };
