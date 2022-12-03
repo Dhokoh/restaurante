@@ -8,8 +8,8 @@ const Home = () => {
             <h1 className='restaurantBrandHome'>Restaurante</h1>
             <Row className="homeRow justify-content-md-center">
                 <Col>
-                    <div className='jumbotronPictureContainer'>
-                        <img src='../public/images/LuRouFan.jpg' alt='some dish picture'/>
+                    <div>
+                        <img className='jumbotronDishPicture' src='images/LuRouFan.jpg' alt='Lu Rou Fan dish'/>
                     </div>
                 </Col>
                 <Col>

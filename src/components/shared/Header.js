@@ -5,18 +5,18 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 const Header = () => {
     return (
         <>
-            <div>
-                <Nav className="navMenu navLink align-content-center justify-content-end" defaultActiveKey='/'>
-                    <div className="navLogoContainer">
-                        <img className="navLogoImg" src="public/images/restaurantlogo.jpg" alt="restaurant logo"/>
-                    </div>
-                    <Nav.Item>
+            <div className="navMenu">
+                <div className="navLogoContainer">
+                        <img className="navLogoImg" src="images/restaurantlogo.jpg" alt="restaurant brand"/>
+                </div>
+                <Nav defaultActiveKey='/'>
+                    <Nav.Item className="navLink">
                         <Nav.Link as='a' href='/'>Inicio</Nav.Link>
                     </Nav.Item>
-                    <Nav.Item>
+                    <Nav.Item className="navLink">
                         <Nav.Link href="/contact">Contacto</Nav.Link>
                     </Nav.Item>
-                    <Nav.Item>
+                    <Nav.Item className="navLink"> 
                         <Nav.Link href="/location">Dirección</Nav.Link>
                     </Nav.Item>
                 </Nav>
